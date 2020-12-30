@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en"><head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <style type="text/css">
+    	.box{
+			margin-left:30%;
+			margin-right:30%;
+			width:40%;
+		}
+		#class1 {
+    		background-color:#CF5136;
+			position:absolute;
+			height:120px;
+			left:0%;
+			right:0%;
+			top:0%;
+		}
+
+		#class2 {
+			color:white;
+			position:absolute;
+			font-size:150%;
+			font-family:Calibri;
+			margin-left:10%;
+			margin-top:7px;
+		}
+    </style>
+  </head>
+  <body>
+  	<section>	
+		<div id="class1">
+			<div id="class2">
+			<p>MnCrypt Encryptor/Decryptor</p>
+			</div>
+		</div>
+	</section>
+	<div style="margin-top: 20%">
+		<textarea class="box" placeholder="Paste your content here" rows="5%"></textarea>
+		<textarea class="box key" placeholder="Paste your key here" rows="5%"></textarea>
+		<br/>
+		<button style="margin-left:30%;margin-right:30%;width:40%;" onclick="encrypt();">Encode</button>
+		<br/>
+		<button style="margin-left:30%;margin-right:30%;width:40%;" onclick="decrypt();">Decode</button>
+		<br/>
+	</div>
+	<textarea class="box" id='output' rows="10%" placeholder="Output"></textarea>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
