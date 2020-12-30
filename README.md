@@ -1,2 +1,2 @@
 # MnCrypt
-An experimental content encrypting tool written using web technologies
+An experimental content encryption tool written using web technologies
